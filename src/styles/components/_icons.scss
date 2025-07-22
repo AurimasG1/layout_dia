@@ -1,0 +1,29 @@
+.icons-top {
+  display: flex;
+  align-items: flex-end;
+  gap: 32px;
+}
+
+.icon-menu {
+  background-image: url(/src/images/menu.png);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  @include hover(transform, scale(1.3));
+  @include cursor;
+
+  @include on-small-desktop {
+    display: none;
+  }
+}
+
+.icon-close {
+  background-image: url(/src/images/close.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  cursor: url(/src/images/ui-kit/cursor.svg), pointer;
+  @include hover(transform, scale(1.3));
+  width: 24px;
+  height: 24px;
+}

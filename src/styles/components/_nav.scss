@@ -1,0 +1,31 @@
+.nav {
+}
+
+.nav__ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  @include cursor;
+  font-size: 13px;
+  line-height: 150%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
+
+aside .nav__ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

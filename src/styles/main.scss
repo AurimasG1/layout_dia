@@ -2,6 +2,20 @@
 @import 'fonts';
 @import 'typography';
 
+@import '/src/styles/components/header';
+@import '/src/styles/components/nav';
+@import '/src/styles/components/strategic-agency';
+@import '/src/styles/components/logo';
+@import '/src/styles/components/icons';
+@import '/src/styles/components/page';
+@import '/src/styles/components/aside';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: $c-gray;
+  background: $mainBgColor;
 }

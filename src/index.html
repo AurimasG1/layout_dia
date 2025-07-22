@@ -1,5 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html
+  lang="en"
+  class="page"
+>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -11,10 +14,118 @@
       rel="stylesheet"
       href="./styles/main.scss"
     />
-  </head>
-  <body>
-    <h1>Dia</h1>
-    <div>Helo helo helo</div>
     <script src="scripts/main.js"></script>
+  </head>
+  <body class="page__body">
+    <header
+      class="header"
+      id="home"
+    >
+      <div class="header__content">
+        <div class="header__icons icons-top">
+          <a
+            class="logo"
+            href="#home"
+          >
+            <img
+              src="/src/images/logo/air-logo.png"
+              alt="Dia logo"
+            />
+          </a>
+          <a
+            class="icon-menu"
+            href="#aside"
+          ></a>
+        </div>
+        <nav class="header__nav nav">
+          <ul class="nav__ul">
+            <li class="nav__li"><a class="nav__link">About Us</a></li>
+            <li class="nav__li"><a class="nav__link">Services</a></li>
+            <li class="nav__li"><a class="nav__link">Testimonials</a></li>
+            <li class="nav__li"><a class="nav__link">Contact us</a></li>
+          </ul>
+        </nav>
+        <div class="header__hire-us">
+          <a
+            class="header__hire-us-link"
+            href="#send-message"
+          >
+            Hire Us
+          </a>
+        </div>
+      </div>
+    </header>
+    <aside
+      class="aside page__aside"
+      id="aside"
+    >
+      <div class="header__icons icons-top">
+        <a
+          class="logo"
+          href="#home"
+        >
+          <img
+            src="/src/images/logo/air-logo.png"
+            alt="Dia logo"
+          />
+        </a>
+        <a
+          class="icon-close"
+          href="#home"
+        ></a>
+      </div>
+      <nav class="aside__nav nav">
+        <ul class="nav__ul">
+          <li class="nav__li">
+            <a
+              class="nav__link"
+              href="#about-us"
+            >
+              About Us
+            </a>
+          </li>
+          <li class="nav__li">
+            <a
+              class="nav__link"
+              href="#services"
+            >
+              Services
+            </a>
+          </li>
+          <li class="nav__li">
+            <a
+              class="nav__link"
+              href="#testimonials"
+            >
+              Testimonials
+            </a>
+          </li>
+          <li class="nav__li">
+            <a
+              class="nav__link"
+              href="#contact-us"
+            >
+              Contact us
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <main>
+      <section
+        class="strategic-agency"
+        id="#strategic"
+      >
+        <article class="header__block-1">
+          <h1>Strategic Agency</h1>
+          <p>
+            We believe in the power of bold ideas that can solve business
+            challenges.
+          </p>
+          <button>asd</button>
+        </article>
+        <article class="header__block-2"></article>
+      </section>
+    </main>
   </body>
 </html>

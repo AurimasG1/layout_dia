@@ -1,9 +1,0 @@
-.logo {
-  justify-content: center;
-  width: 46px;
-  height: 28px;
-  display: flex;
-
-  @include cursor;
-  @include hover(transform, scale(1.3));
-}

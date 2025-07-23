@@ -1,7 +1,6 @@
 @import 'utils';
 @import 'fonts';
 @import 'typography';
-
 @import '/src/styles/components/header';
 @import '/src/styles/components/nav';
 @import '/src/styles/components/strategic-agency';
@@ -9,6 +8,9 @@
 @import '/src/styles/components/icons';
 @import '/src/styles/components/page';
 @import '/src/styles/components/aside';
+@import '/src/styles/components/slider';
+@import '/src/styles/components/who-we-are';
+@import '/src/styles/components/our-expertise';
 
 * {
   padding: 0;

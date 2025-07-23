@@ -8,6 +8,7 @@
   overflow: auto;
 
   @include on-small-desktop {
+    display: block;
   }
 
   &__content {

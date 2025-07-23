@@ -1,8 +1,9 @@
 .page {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 100%;
   scroll-behavior: smooth;
+}
+
+.page__body {
+  background-color: #f2f6fa;
 }
 
 .page:has(.page__aisde:target) {

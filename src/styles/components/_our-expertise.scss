@@ -1,0 +1,17 @@
+.our-expertise {
+  background-color: #fff;
+}
+
+.our-expertise__content {
+  @include grid-container;
+
+  height: 1375px;
+
+  @include on-tablet {
+    height: 1457px;
+  }
+
+  @include on-small-desktop {
+    height: 759px;
+  }
+}
